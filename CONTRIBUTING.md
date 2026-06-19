@@ -5,12 +5,6 @@ open-source projects maintained by Kevin P. Inscoe. Individual projects link
 here instead of repeating these instructions. Where a project has its own
 `CONTRIBUTING.md`, that project's rules take precedence over anything here.
 
-## Code of Conduct
-
-Be respectful and constructive. Assume good faith. Harassment, personal
-attacks, and discriminatory language are not welcome in any project space —
-issues, pull requests, discussions, or commit messages.
-
 ## Ways to Contribute
 
 You do not have to write code to help:
@@ -24,9 +18,21 @@ You do not have to write code to help:
 
 ## Before You Start
 
-For anything larger than a typo or a one-line fix, **open an issue first** so we
-can agree on the approach before you invest time. This avoids the
-disappointment of a well-built change that does not fit the project's direction.
+You do not have to open an issue before fixing something. If you know how to fix
+it and are willing to do the work, go straight to a pull request — that is the
+most helpful path.
+
+**Open an issue first only when:**
+
+- You have found a problem but do not know how to fix it, or
+- You are not willing or able to fix it yourself, or
+- The change is large enough that you want to agree on the approach before
+  investing the time.
+
+If you are new to contributing to open source, these are worth reading first:
+
+- [freeCodeCamp — How to Contribute to Open Source](https://github.com/freeCodeCamp/how-to-contribute-to-open-source)
+- [contributing.md](https://contributing.md/)
 
 ## Reporting Issues
 
