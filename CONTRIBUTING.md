@@ -169,14 +169,14 @@ is encouraged, not required — unsigned contributions are still welcome.
 ## Security
 
 **Do not report security vulnerabilities through public issues or pull
-requests.** Instead, email **kevin.inscoe@gmail.com** with:
+requests.** Use a private channel:
 
-- A description of the vulnerability and its impact.
-- Steps to reproduce it.
-- Any suggested remediation, if you have one.
+1. GitHub's **"Report a vulnerability"** button on the repository's Security tab
+   (preferred), or
+2. Email **kevin.inscoe@gmail.com**.
 
-You will receive an acknowledgement, and the fix will be coordinated privately
-before any public disclosure.
+See [SECURITY.md](SECURITY.md) for what to include, response expectations, and
+scope.
 
 ## License
 

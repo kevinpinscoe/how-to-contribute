@@ -28,6 +28,7 @@ guidance so individual projects can link here instead of duplicating it.
 ```
 how-to-contribute/
 ├── CONTRIBUTING.md   # the contribution guide itself
+├── SECURITY.md       # how to report security vulnerabilities
 ├── LICENSE           # CC BY 4.0
 ├── README.md         # this file
 ├── RUNBOOK.md        # how to maintain and publish this repo
@@ -38,8 +39,9 @@ how-to-contribute/
 ## Security
 
 This repository contains documentation only — no executable code or secrets.
-To report a security concern in a project that links here, or an issue with
-the guidance itself, email kevin.inscoe@gmail.com.
+To report a security vulnerability, do **not** open a public issue. Use GitHub's
+**"Report a vulnerability"** button on the Security tab, or email
+kevin.inscoe@gmail.com. See [SECURITY.md](SECURITY.md) for the full policy.
 
 ## Ownership and Support
 
@@ -49,6 +51,7 @@ the guidance itself, email kevin.inscoe@gmail.com.
 ## Related Documentation
 
 - [Contributing](CONTRIBUTING.md)
+- [Security Policy](SECURITY.md)
 - [Runbook](RUNBOOK.md)
 
 ## License
