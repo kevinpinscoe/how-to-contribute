@@ -1,4 +1,4 @@
-# RUNBOOK.md — how-to-contribute
+# RUNBOOK.md — .github
 
 ## Metadata
 
@@ -9,7 +9,7 @@
 | **Last Tested** | 2026-06-19 |
 | **Expected Duration** | < 5 minutes |
 | **Risk Level** | Low |
-| **Repo** | github.com/kevinpinscoe/how-to-contribute |
+| **Repo** | github.com/kevinpinscoe/.github |
 
 ---
 
@@ -32,7 +32,7 @@
 
 ## Prerequisites
 
-- [ ] Local clone at `~/Projects/public/how-to-contribute`
+- [ ] Local clone at `~/Projects/public/.github`
 - [ ] `git` installed and SSH access to GitHub (`ssh -T git@github.com`)
 - [ ] If `mise.toml` is present in the repo: run `mise install && mise doctor` before proceeding
 
@@ -43,7 +43,7 @@
 | Component | Details |
 |---|---|
 | **Language / Runtime** | None — Markdown documentation only |
-| **External Services** | GitHub (`github.com/kevinpinscoe/how-to-contribute`) |
+| **External Services** | GitHub (`github.com/kevinpinscoe/.github`) |
 | **Databases / File Stores** | None |
 | **Credentials / Secrets** | None |
 
@@ -56,7 +56,7 @@
 **Why:** make the documentation change.
 
 ```bash
-cd ~/Projects/public/how-to-contribute
+cd ~/Projects/public/.github
 vim CONTRIBUTING.md   # or README.md
 ```
 
@@ -83,15 +83,15 @@ git push
 ## Verification
 
 ```bash
-git -C ~/Projects/public/how-to-contribute log --oneline -3
-git -C ~/Projects/public/how-to-contribute status
+git -C ~/Projects/public/.github log --oneline -3
+git -C ~/Projects/public/.github status
 ```
 
 **Expected output:** your latest commit appears at the top of the log; the
 working tree is clean.
 
 **Success criteria:** changes are committed, pushed, and visible at
-https://github.com/kevinpinscoe/how-to-contribute.
+https://github.com/kevinpinscoe/.github.
 
 ---
 
@@ -107,7 +107,7 @@ https://github.com/kevinpinscoe/how-to-contribute.
 
 | Condition | Contact | How |
 |---|---|---|
-| Repo access lost | Kevin P. Inscoe | kevin.inscoe@gmail.com |
+| Repo access lost | Kevin P. Inscoe | [kevin.inscoe@gmail.com](mailto:kevin.inscoe@gmail.com) |
 
 ---
 
@@ -123,7 +123,7 @@ https://github.com/kevinpinscoe/how-to-contribute.
 ## Logs
 
 ```bash
-git -C ~/Projects/public/how-to-contribute log --oneline -20
+git -C ~/Projects/public/.github log --oneline -20
 ```
 
 ---

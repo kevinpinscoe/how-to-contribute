@@ -4,6 +4,12 @@ Thank you for helping keep these projects and their users safe. This policy
 applies to the open-source projects maintained by Kevin P. Inscoe. Where a
 project has its own `SECURITY.md`, that project's policy takes precedence.
 
+## Supported Versions
+
+Security fixes generally target the latest released version and the current
+default branch. Older releases may not receive security updates. A project's
+own `SECURITY.md` may define a different support policy.
+
 ## Reporting a Vulnerability
 
 **Do not report security vulnerabilities through public issues, pull requests,
@@ -13,9 +19,11 @@ risk.
 Use one of these private channels instead:
 
 1. **GitHub Private Vulnerability Reporting (preferred).** On the affected
-   repository, go to the **Security** tab and click **"Report a vulnerability"**.
-   This opens a private, tracked report visible only to the maintainer.
-2. **Email (fallback).** Send the details to **kevin.inscoe@gmail.com**.
+   repository, go to the **Security** tab and click **"Report a vulnerability"**
+   if that option is available. This opens a private, tracked report visible
+   only to the maintainer.
+2. **Email (fallback).** Send the details to
+   **[kevin.inscoe@gmail.com](mailto:kevin.inscoe@gmail.com)**.
 
 ## What to Include
 
@@ -50,4 +58,4 @@ applies to. It does not cover:
 ## Questions
 
 For non-sensitive questions about this policy, open a regular issue or email
-kevin.inscoe@gmail.com.
+[kevin.inscoe@gmail.com](mailto:kevin.inscoe@gmail.com).

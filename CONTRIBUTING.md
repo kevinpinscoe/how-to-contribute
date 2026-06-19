@@ -1,9 +1,9 @@
 # How to Contribute
 
 Thank you for taking the time to contribute. This guide applies to the
-open-source projects maintained by Kevin P. Inscoe. Individual projects link
-here instead of repeating these instructions. Where a project has its own
-`CONTRIBUTING.md`, that project's rules take precedence over anything here.
+open-source projects maintained by Kevin P. Inscoe. GitHub uses it as the
+default for repositories that do not provide their own `CONTRIBUTING.md`.
+Where a project has its own file, that project's rules take precedence.
 
 ## Ways to Contribute
 
@@ -65,7 +65,7 @@ Before opening a new issue:
    ```bash
    git remote add upstream git@github.com:kevinpinscoe/<repo>.git
    ```
-3. **Install the pinned toolchain.** These projects use
+3. **Install the pinned toolchain.** Some projects use
    [mise](https://mise.jdx.dev/) for tool versions. If a `mise.toml` is present:
    ```bash
    mise install
@@ -149,7 +149,7 @@ is encouraged, not required — unsigned contributions are still welcome.
    git rebase upstream/main
    ```
 2. **Push** your branch to your fork and open a pull request against
-   `kevinpinscoe/main`.
+   `kevinpinscoe/<repo>`, targeting its `main` branch.
 3. **Describe the change:** what it does, why, and how you tested it. Link the
    issue it resolves.
 4. **Keep it focused.** One concern per pull request. Open separate pull
@@ -171,9 +171,9 @@ is encouraged, not required — unsigned contributions are still welcome.
 **Do not report security vulnerabilities through public issues or pull
 requests.** Use a private channel:
 
-1. GitHub's **"Report a vulnerability"** button on the repository's Security tab
-   (preferred), or
-2. Email **kevin.inscoe@gmail.com**.
+1. GitHub's **"Report a vulnerability"** button on the repository's Security tab,
+   if available (preferred), or
+2. Email **[kevin.inscoe@gmail.com](mailto:kevin.inscoe@gmail.com)**.
 
 See [SECURITY.md](SECURITY.md) for what to include, response expectations, and
 scope.
@@ -181,11 +181,11 @@ scope.
 ## License
 
 By contributing, you agree that your contributions are licensed under the same
-terms as the project you are contributing to. This repository itself is
-licensed under [Creative Commons Attribution 4.0 International](LICENSE)
-(CC BY 4.0).
+terms as the project you are contributing to. This guide is licensed under
+[Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0).
 
 ## Questions
 
-If anything here is unclear, open an issue or email kevin.inscoe@gmail.com.
-Thanks again for contributing.
+If anything here is unclear, open an issue or email
+[kevin.inscoe@gmail.com](mailto:kevin.inscoe@gmail.com). Thanks again for
+contributing.
