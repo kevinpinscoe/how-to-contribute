@@ -1,0 +1,24 @@
+# OS cruft
+**/.DS_Store
+**/Thumbs.db
+
+# Editor artifacts
+**/*.swp
+
+# AI / tool working dirs
+**/resume.sh
+**/resume.txt
+**/.claude
+**/.claude/settings.local.json
+**/.codex
+**/.trash/
+
+# Obsidian working state
+**/.obsidian/workspace.json
+**/.obsidian/graph.json
+**/.obsidian/plugins/*/data.json
+
+# Python artifacts
+**/*.pyc
+**/*.pyo
+**/__pycache__/
