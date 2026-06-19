@@ -6,6 +6,8 @@ A general guide explaining how to contribute to the open-source projects
 Kevin P. Inscoe maintains. It covers reporting issues, proposing changes,
 and the conventions contributors are expected to follow.
 
+**➡️ Read the guide: [CONTRIBUTING.md](CONTRIBUTING.md)**
+
 ## Status
 
 Production
